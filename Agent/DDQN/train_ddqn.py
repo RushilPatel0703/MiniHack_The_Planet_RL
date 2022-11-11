@@ -127,7 +127,7 @@ if __name__ == '__main__':
                     observation_keys = ("glyphs", "chars", "colors", "pixel", "pixel_crop", "blstats", "colors_crop"),
                     penalty_time = -0.1,
                     reward_win=7,
-                    seeds = [42],
+                    seeds = [random.randint(0,100)],
                     reward_manager = reward_manager,
                     actions = ACTIONS)
 
