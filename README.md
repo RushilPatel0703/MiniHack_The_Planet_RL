@@ -23,4 +23,4 @@ Two agents were implemented, Duelling DQN and REINFORCE.
 To run the DDQN agent, the `train_ddqn.py` needs to be run which has dependancy on `agent.py`, `model.py`, `replay_buffer.py`, `wrappers.py` <br>
 
 ### REINFORCE
-To run the REINFORCE agent run assignment_quest_hard.ipynb.
+To run the REINFORCE agent run `assignment_quest_hard.ipynb`.
